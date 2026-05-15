@@ -86,3 +86,4 @@ The zone can have any number of points — not just four.
 | App slow on Streamlit Cloud | Set "Process every N frames" to 3 in sidebar |
 | Zone in wrong position | Edit `DEFAULT_ZONE` coordinates in `app.py` |
 | Video won't open | Convert to H.264 MP4 and try again |
+ 
