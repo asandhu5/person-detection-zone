@@ -1,0 +1,32 @@
+# Model weights (auto-downloaded, large files)
+*.pt
+*.onnx
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+PD/
+venv/
+env/
+.venv/
+
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Uploaded / temp videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+!sample_video.mp4
+
+# OS files
+.DS_Store
+Thumbs.db
+EOF
