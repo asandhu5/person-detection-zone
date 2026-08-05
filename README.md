@@ -9,11 +9,13 @@
 
 ---
 
-## ▶️ HOW TO RUN LOCALLY (Step by Step)
+## ▶️ HOW TO RUN (Step by Step)
 
-### Step 1 — Open terminal in this folder
+### Step 1 — Clone this repo
 
 ```bash
+
+git clone git@github.com:asandhu5/person-detection-zone.git
 cd person-detection-zones
 ```
 
