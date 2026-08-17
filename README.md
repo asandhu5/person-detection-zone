@@ -7,6 +7,24 @@
 ![YOLOv10](https://img.shields.io/badge/YOLOv10-Ultralytics-00BFFF)
 ![Tests](https://img.shields.io/badge/Tests-59%20passed-brightgreen)
 
+
+---
+
+## Demo
+
+
+### Tracking outside the zone
+
+Selecting the Model and uploading the video.
+<img src="assets/model_selection.gif" width="650" >
+
+### Zone crossing triggers the alert
+
+The moment a detection falls inside the polygon, the box switches to red and the alert banner fires.
+
+<img src="assets/crossing_alert.gif" width="650">
+
+
 ---
 
 ## ▶️ HOW TO RUN (Step by Step)
@@ -88,4 +106,3 @@ The zone can have any number of points — not just four.
 | App slow on Streamlit Cloud | Set "Process every N frames" to 3 in sidebar |
 | Zone in wrong position | Edit `DEFAULT_ZONE` coordinates in `app.py` |
 | Video won't open | Convert to H.264 MP4 and try again |
- 
